@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.super-league-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+.super-over-heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+.super-over-images-container {
+  display: flex;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+}
